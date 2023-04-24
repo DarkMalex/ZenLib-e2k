@@ -149,7 +149,7 @@ namespace ZMath
             : T(x...)
         {
         }
-        t_vector() = default;
+        t_vector(){};
 
         // Comparision operators
         bool operator==(const t_vector<T, S...>& v) const
